@@ -34,14 +34,20 @@ public class LacosDeRepeticao {
                 + "\"Chunin\" (idade entre 12 e 16) ou \"Jonin\" (idade > 16).");
         System.out.println("");
 
-        int[] idade = new int[4];
+        int[] idade = new int[4]; //inicializacao possivel: int[] idades = {10, 15, 16, 18};
         idade[0] = 10;
         idade[1] = 15;
         idade[2] = 16;
         idade[3] = 18;
 
-        //finalizando desafio
-
-
+        for (int i = 0; i < idade.length; i++) {
+            if (idade[i] < 12) {
+                System.out.println("Ninja " + i + " é um Genin");
+            } else if (idade[i] <= 16) {
+                System.out.println("Ninja " + i + " é um Chunin");
+            } else {
+                System.out.println("Ninja " + i + " é um Jonin");
+            }
+        }
     }
 }
