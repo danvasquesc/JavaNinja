@@ -1,4 +1,4 @@
-package NivelBasico;
+package NivelBasico.Arrays;
 
 public class Array {
 
