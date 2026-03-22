@@ -27,3 +27,14 @@ public class Main {
 
     }
 }
+
+/*
+* ORIENTACAO A OBJETOS
+*
+* HERANÇA - usar caracteristicas de uma classe mae em outras classes filhas para assim poupar codigo e agilizar trabalho.
+*
+* POLIMORFISMO - criar uma funcao unica que pode ser utilizada em diferentes classes com diferentes caracteristicas.
+*
+* ENCAPSULAMENTO - capacidade de proteger variaveis e classes para que nao haja vazamento e mantendo assim protegida e encapsulada nossos objetos.
+*
+* */
