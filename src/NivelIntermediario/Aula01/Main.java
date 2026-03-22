@@ -3,6 +3,7 @@ package NivelIntermediario.Aula01;
 public class Main {
     public static void main(String[] args) {
 
+        //Naruto e Sasuke são objetos
         //Criar ninjas com objetos
         Ninja Naruto = new Ninja();
         Naruto.nome = "Naruto Uzumaki";
@@ -15,7 +16,14 @@ public class Main {
         Sasuke.aldeia = "Aldeia da Folha";
         Sasuke.idade = 18;
 
-        //Naruto e Sasuke são objetos
+        Sasuke.SharinganAtivado(); //Aplicando metodo ao meu objeto
+
+        String chamandoMetodo = Sasuke.EuSouUmNinja();
+        System.out.println(chamandoMetodo);
+
+        //Metodo que solicita parametro
+        int quantoTempoFalta = Sasuke.anosParaSeTornarHokage(70);
+        System.out.println(quantoTempoFalta);
 
     }
 }
