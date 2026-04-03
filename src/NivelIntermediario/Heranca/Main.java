@@ -32,5 +32,15 @@ public class Main {
         Hinata.idade = 16;
         Hinata.AtivarByakugan();
 
+        //Novo objeto com a classe Boruto, que tem implementado a interface HyugaUzumaki
+        Boruto Boruto = new Boruto();
+        Boruto.nome = "Boruto Hyuga Uzumaki";
+        Boruto.aldeia = "Aldeia da Folha";
+        Boruto.idade = 9;
+
+        Boruto.ModoSabioAtivado();
+        Boruto.AtivarOKarma();
+        Boruto.AtivarJougan();
+
     }
 }
